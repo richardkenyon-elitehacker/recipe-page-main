@@ -32,14 +32,25 @@ body {
     letter-spacing: 0%;
 }
 
+.text-preset-3 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
 .text-preset-4 {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0%;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
 }
 
 .young-serif-regular {
@@ -89,4 +100,8 @@ body {
     padding: 24px;
     background-color: var(--rose-50);
     border-radius: 12px;
+}
+
+.recipe .preptime h1 {
+    color: var(--rose-800);
 }
