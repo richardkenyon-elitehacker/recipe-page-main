@@ -83,3 +83,10 @@ body {
 .recipe p {
     color: var(--stone-600);
 }
+
+.recipe .preptime {
+    margin: 32px 0;
+    padding: 24px;
+    background-color: var(--rose-50);
+    border-radius: 12px;
+}
