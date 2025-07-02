@@ -89,9 +89,9 @@ em {
     margin: 0 0 24px 0;
 }
 
-.recipe ul {
-    /*list-style-position: inside;*/
+.recipe ul, ol {
     list-style: none;
+    counter-reset: my-counter;
 }
 
 .recipe p, li {
@@ -103,14 +103,23 @@ em {
     padding-right: 16px;
     position: relative;
     margin: 8px 0;
+    counter-increment: my-counter;
 }
 
 .recipe ul li::before {
     content: '•';
-    position: absolute;
-    left: 8px;
     font-size: 1.2em;
     top: 0.1em;
+}
+
+.recipe ol li::before {
+    font-weight: bold;
+}
+
+.recipe li::before {
+    content: counter(my-counter) ".";
+    position: absolute;
+    left: 8px;
 }
 
 .recipe .preptime {
