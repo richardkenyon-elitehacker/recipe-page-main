@@ -32,6 +32,15 @@ body {
     letter-spacing: 0%;
 }
 
+.text-preset-2 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
 .text-preset-3 {
     font-family: "Outfit", sans-serif;
     font-optical-sizing: auto;
@@ -53,24 +62,9 @@ body {
     letter-spacing: 0%;
 }
 
-.young-serif-regular {
-  font-family: "Young Serif", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.outfit-regular {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.outfit-semibold {
-  font-family: "Outfit", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
+em {
+    font-weight: bold;
+    font-style: initial;
 }
 
 .container {
@@ -91,8 +85,28 @@ body {
     margin: 0 0 24px 0;
 }
 
-.recipe p {
+.recipe ul {
+    /*list-style-position: inside;*/
+    list-style: none;
+}
+
+.recipe p, li {
     color: var(--stone-600);
+}
+
+.recipe li {
+    padding-left: 40px;
+    padding-right: 16px;
+    position: relative;
+    margin: 8px 0;
+}
+
+.recipe li::before {
+    content: '•';
+    position: absolute;
+    left: 8px;
+    font-size: 1.2em;
+    top: 0.1em;
 }
 
 .recipe .preptime {
@@ -104,4 +118,9 @@ body {
 
 .recipe .preptime h1 {
     color: var(--rose-800);
+}
+
+.recipe h2 {
+    margin-bottom: 24px;
+    color: var(--brown-800);
 }
