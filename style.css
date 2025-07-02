@@ -142,6 +142,24 @@ em {
     color: var(--brown-800);
 }
 
-table {
-    margin: 24px 0;
+.recipe table {
+    margin: 24px auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.recipe table tr {
+    border-bottom: 1px solid var(--stone-100);
+}
+
+.recipe table td {
+    padding: 12px 32px;
+}
+
+.recipe table tr td:first-child {
+    color: var(--stone-600);
+}
+
+.recipe table tr td:nth-child(2) {
+    color: var(--brown-800);
 }
