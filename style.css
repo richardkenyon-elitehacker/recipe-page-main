@@ -152,6 +152,14 @@ em {
     border-bottom: 1px solid var(--stone-100);
 }
 
+.recipe table tr:last-child {
+    border-bottom: none;
+}
+
+.recipe table tr:first-child td {
+    padding: 0 32px 12px 32px;
+}
+
 .recipe table td {
     padding: 12px 32px;
 }
