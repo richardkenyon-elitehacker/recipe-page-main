@@ -141,3 +141,7 @@ em {
     margin-bottom: 24px;
     color: var(--brown-800);
 }
+
+table {
+    margin: 24px 0;
+}
