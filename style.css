@@ -71,6 +71,14 @@ em {
     font-style: initial;
 }
 
+hr {
+    margin: 32px 0;
+    border: none;
+    height: 1px;
+    color: black;
+    background-color: var(--stone-150);
+}
+
 .container {
     width: 375px;
     margin: 0 auto;
@@ -131,6 +139,11 @@ em {
 
 .recipe .preptime h1 {
     color: var(--rose-800);
+    margin-bottom: 16px;
+}
+
+.recipe .preptime ul li:last-child {
+    margin-bottom: 0;
 }
 
 .recipe section h1 {
