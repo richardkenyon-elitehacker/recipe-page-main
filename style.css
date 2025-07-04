@@ -184,11 +184,6 @@ section:last-child {
     padding: 12px 32px;
 }
 
-.recipe table tr:last-child td {
-    padding: 12px 32px 0 32px;
-}
-
-
 .recipe table tr td:first-child {
     color: var(--stone-600);
 }
