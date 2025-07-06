@@ -180,6 +180,10 @@ section:last-child {
     padding: 0 32px 12px 32px;
 }
 
+.recipe table tr:last-child td {
+    padding: 12px 32px 0 32px;
+}
+
 .recipe table td {
     padding: 12px 32px;
 }
@@ -216,5 +220,12 @@ section:last-child {
     img {
         border-radius: 12px;
         height: 300px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        width: 100%;
+        max-width: 736px;
     }
 }
