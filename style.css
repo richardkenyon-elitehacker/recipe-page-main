@@ -40,7 +40,7 @@ section {
     font-family: "Young Serif", serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 28px;
+    font-size: clamp(1.75rem, calc(2vw + 0.5rem), 2rem);
     line-height: 100%;
     letter-spacing: 0%;
 }
@@ -204,10 +204,6 @@ section:last-child {
         margin: 128px auto;
     }
 
-    /*.text-preset-1 {
-        font-size: 40px;
-    }*/
-
     .recipe {
         padding: 40px;
         border-radius: 24px;
@@ -232,8 +228,4 @@ section:last-child {
         width: 100%;
         max-width: 736px;
     }
-
-    /*.text-preset-1 {
-        font-size: 40px;
-    }*/
 }
